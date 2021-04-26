@@ -1,0 +1,21 @@
+GET http://localhost:3000/user
+
+###
+
+GET http://localhost:3000/user/2
+
+###
+
+POST http://localhost:3000/user
+Content-Type: application/json
+
+{
+    "firstname": "Billy",
+    "lastname": "Bob",
+    "age": "51",
+    "Gender": "M"
+}
+
+###
+
+DELETE http://localhost:3000/user/7
